@@ -2,10 +2,10 @@ FROM golang:1.20-alpine
 
 WORKDIR /usr/src/app
 
-COPY go.mod go.sum ./
+COPY src/go.mod src/go.sum ./
 RUN go mod download && go mod verify
 
-COPY . .
+COPY src .
 
 RUN mkdir -p /usr/local/bin/
 RUN go mod tidy
