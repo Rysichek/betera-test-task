@@ -50,7 +50,15 @@ paths:
                     url: "https://apod.nasa.gov/apod/image/2312/BavarianHalos_Werner_960.jpg"
                     hdurl: "https://apod.nasa.gov/apod/image/2312/BavarianHalos_Werner_1500.jpg"
                     data: "b5QMRP0joxQnyN1v40Rp0x1adPybIpdOFqhad4LrD95aqtpG2urU0tVwRRRK0r8VpTtdSsWXPsN44BpCUN+vGcdE6NPl7b8WqcWl/dcknAMOwjhEqrYtFVcQ2lTZ3vZjrUGQ07W61iq1YLjzTVLgnaPvPajiIMtBXwecDHcpbb/wCKaezw5UxVBezdOfNO2n2hnebDZVP20Kmh1siPzh0Zaq9txUKGRPy7LflbObx2MS7ijy+P+A9Tl6YPmUnBV+iU8dWk6+S/JHzsj3rFoBn/AHO39xduP3D49wGjsFbKdhL4sDFJwN2BCI1iKJmBFZNiZHH6dPIMxCL2dv60v8zq+7HPHM5KlF+Nh7/1ZlqxslWA2sDqUvVseLNtPPLLOPMsrcLIMxaYuPGIcf0yp/"
-
+                  - copyright: "Gaurav Singh"
+                    date: "2023-12-28"
+                    explanation: "For a brief moment, this brilliant fireball meteor outshone Jupiter in planet Earth's night. The serendipitous image was captured while hunting meteors under cold Canadian skies with a camera in timelapse mode on December 14, near the peak of the Geminid meteor shower. The Geminid meteor shower, asteroid 3200 Phaethon's annual gift, always arrives in December. Dust shed along the orbit of the mysterious asteroid causes the meteor streaks, as the vaporizing grains plow through our fair planet's upper atmosphere at 22 kilometers per second. Of course Geminid shower meteors appear to radiate from a point in the constellation of the Twins. That's below and left of this frame. With bright Jupiter on the right, also in the December night skyview are the Pleiades and Hyades star clusters."
+                    media_type: "image"
+                    service_version: "v1"
+                    title: "Jupiter and the Geminid"
+                    url: "https://apod.nasa.gov/apod/image/2312/G0030446_1100.jpg"
+                    hdurl: "https://apod.nasa.gov/apod/image/2312/G0030446.jpg"
+                    data: "b5QMRP0joxQnyN1v40Rp0x1adPybIpdOFqhad4LrD95aqtpG2urU0tVwRRRK0r8VpTtdSsWXPsN44BpCUN+vGcdE6NPl7b8WqcWl/dcknAMOwjhEqrYtFVcQ2lTZ3vZjrUGQ07W61iq1YLjzTVLgnaPvPajiIMtBXwecDHcpbb/wCKaezw5UxVBezdOfNO2n2hnebDZVP20Kmh1siPzh0Zaq9txUKGRPy7LflbObx2MS7ijy+P+A9Tl6YPmUnBV+iU8dWk6+S/JHzsj3rFoBn/AHO39xduP3D49wGjsFbKdhL4sDFJwN2BCI1iKJmBFZNiZHH6dPIMxCL2dv60v8zq+7HPHM5KlF+Nh7/1ZlqxslWA2sDqUvVseLNtPPLLOPMsrcLIMxaYuPGIcf0yp/"
 
   /api/picture/{date}:
     get:
